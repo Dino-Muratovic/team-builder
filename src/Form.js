@@ -4,7 +4,7 @@ import React from 'react';
 const Form = (props) => {    
 
     return (
-        <form>
+        <form onSubmit={props.onFormSubmit}>
 
             <label>Full Name </label>
             <input 
